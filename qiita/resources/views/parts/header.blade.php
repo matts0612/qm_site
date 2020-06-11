@@ -19,7 +19,7 @@
 
 
     <ul class="navbar-nav ml-auto mr-5">
-    @if (Auth::check()) // ここを追記
+    @if (Auth::check()) 
       <li class="nav-item ml-2">
         <a class="nav-link text-white" href="#">ストック一覧</a>
       </li>
@@ -53,14 +53,14 @@
           </form>
         </div>
       </li>
-      @else // ここを追記
+      @else 
       <li class="nav-item ml-2">
         <a class="nav-link text-white" id="register" href="/register">ユーザ登録</a>
       </li>
       <li class="nav-item ml-2">
         <a class="nav-link text-white" href="#">ログイン</a>
       </li>
-      @endif // ここを追記
+      @endif
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
