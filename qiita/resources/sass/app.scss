@@ -12,36 +12,27 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-
-// ナビゲーションバーの背景色をQiitaの色にする
 nav {
   background-color: #55C501;
   #Navber {
     .navbar-nav {
       .nav-item {
-        // 投稿するボタンの背景を深緑にする
         #post-link {
           background-color: #367E00;
           border-radius: 5px;
           padding-left: 1rem;
           padding-right: 1rem;
         }
-
-        // ここから追記
         #register {
           border: solid 2px white;
           border-radius: 10px;
         }
-        // ここまで追記
 
       }
     }
   }
 }
 
-// ここから追記
-
-// ログイン部分の背景を深緑にする
 #login-wrapper {
   background-color: #55C501;
   .col-7 {
@@ -81,5 +72,3 @@ nav {
     }
   }
 }
-
-// ここまで追記
